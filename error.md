@@ -1,0 +1,75 @@
+所有接口方法在调用失败或遇到未知错误时会返回相关错误信息。
+
+格式如下：
+
+<table>
+	<tr>
+		<td>字段名</td>
+		<td>描述</td>
+	</tr>
+	<tr>
+		<td>code</td>
+		<td>错误代码</td>
+	</tr>
+	<tr>
+		<td>msg</td>
+		<td>错误消息内容</td>
+	</tr>
+</table>
+
+code代码含义如下：
+
+<table>
+	<tr>
+		<td>code</td>
+		<td>msg</td>
+	</tr>
+	<tr>
+		<td>0</td>
+		<td>成功</td>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>服务器繁忙</td>
+	</tr>
+	<tr>
+		<td>2</td>
+		<td>请求参数不合法</td>
+	</tr>
+	<tr>
+		<td>3</td>
+		<td>账户被锁定</td>
+	</tr>
+	<tr>
+		<td>4</td>
+		<td>用户不存在</td>
+	</tr>
+	<tr>
+		<td>5</td>
+		<td>资产异常</td>
+	</tr>
+	<tr>
+		<td>6</td>
+		<td>交易不受信任</td>
+	</tr>
+	<tr>
+		<td>7</td>
+		<td>无效的用户</td>
+	</tr>
+	<tr>
+		<td>8</td>
+		<td>转出账户错误</td>
+	</tr>
+	<tr>
+		<td>9</td>
+		<td>转入账户错误</td>
+	</tr>
+	<tr>
+		<td>10</td>
+		<td>转账错误</td>
+	</tr>
+	<tr>
+		<td>11</td>
+		<td>权限不足</td>
+	</tr>
+</table>
